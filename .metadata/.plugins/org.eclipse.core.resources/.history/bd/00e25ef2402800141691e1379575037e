@@ -1,0 +1,26 @@
+package com.dt.entity;
+
+import java.util.List;
+
+public class CustomersWrapper {
+	private static CustomersWrapper instance_;
+	public static List<Customer> customers;
+
+	private CustomersWrapper(){
+		
+	}
+	
+	public static CustomersWrapper getInstance(){
+		if(instance_ == null){
+			instance_ = new CustomersWrapper();
+		}
+		return instance_;	
+	}
+		
+	static{
+		customers.add(new Customer("Islam Elmenshawy", "Sacramento"));
+		customers.add(new Customer("Darrel Urlich", "Sacramento"));
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+'use strict';
+
+/* Services */
+
+
+// Demonstrate how to register services
+// In this case it is a simple value service.
+
+var customerServices = angular.module('myApp.services', ['ngResource']);
+
+customerServices.factory('customers', function($resource) {
+	return $resource('http://localhost:8080/TestAngularJSBackEnd/customer/',{},{
+		query: {method: 'GET', isArray:true}
+	})
+});

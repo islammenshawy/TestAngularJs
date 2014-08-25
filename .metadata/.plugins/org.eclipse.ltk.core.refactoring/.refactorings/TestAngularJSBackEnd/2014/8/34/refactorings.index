@@ -1,0 +1,6 @@
+1408516534546	Rename package 'com.dt.customer.entity'
+1408516604345	Move compilation unit
+1408516637536	Rename compilation unit 'TestStub.java'
+1408516934300	Encapsulate field 'name'
+1408516951857	Encapsulate field 'city'
+1408517967223	Delete element

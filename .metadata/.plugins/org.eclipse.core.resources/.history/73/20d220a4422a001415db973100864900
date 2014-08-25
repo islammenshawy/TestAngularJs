@@ -1,0 +1,12 @@
+<ul>
+	<li ng-repeat="onecustomer in allcustomers">{{onecustomer.name}}</li>
+</ul>
+
+    <h1>Hello, world!</h1>
+
+
+<div class="table-responsive">
+  <table class="table">
+    <tr ng-repeat="onecustomer in allcustomers">{{onecustomer.name}}</tr>
+  </table>
+</div>

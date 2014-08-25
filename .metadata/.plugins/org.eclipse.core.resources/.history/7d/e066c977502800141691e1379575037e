@@ -1,0 +1,12 @@
+'use strict';
+
+/* Controllers */
+
+angular.module('myApp.controllers', [])
+  .controller('MyCtrl1', ['$scope', function($scope, Customers) {
+	  $scope.allcustomers = Customers.$query();
+
+  }])
+  .controller('MyCtrl2', ['$scope', function($scope) {
+
+  }]);

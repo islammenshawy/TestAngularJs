@@ -1,0 +1,35 @@
+<ul>
+	<li ng-repeat="onecustomer in allcustomers">{{onecustomer.name}}</li>
+</ul>
+
+<table id="example" class="table table-striped table-bordered table-hover" cellspacing="0" width="100%">
+        <thead>
+            <tr class="active">
+                <th>Name</th>
+                <th>City</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+ 
+        <tbody>
+            <tr ng-repeat="onecustomer in allcustomers" class="success">
+                <td>{{onecustomer.name}}</td>
+                <td>{{onecustomer.city}}</td>
+                <td>New York</td>
+                <td>63</td>
+                <td>2010/01/04</td>
+                <td>$125,250</td>
+            </tr>
+            <tr>
+                <td>Zenaida Frank</td>
+                <td>Software Engineer</td>
+                <td>New York</td>
+                <td>63</td>
+                <td>2010/01/04</td>
+                <td>$125,250</td>
+            </tr>
+        </tbody>
+    </table>

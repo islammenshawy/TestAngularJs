@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ACHCustomerServiceImpl.java&apos; to &apos;TestAngularJSBackEnd/src/com.dt.services&apos;&#x0D;&#x0A;- Original project: &apos;CMS-Xcelerated-Title&apos;&#x0D;&#x0A;- Destination element: &apos;TestAngularJSBackEnd/src/com.dt.services&apos;&#x0D;&#x0A;- Original element: &apos;ACHCustomerServiceImpl.java&apos;" description="Copy file" destination="=TestAngularJSBackEnd/src&lt;com.dt.services" element1="src/main/java/com/dt/xt/service/impl/ACHCustomerServiceImpl.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1408517454055" units="0" version="1.0"/>
+</session>

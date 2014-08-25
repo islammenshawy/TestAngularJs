@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="554" key="DIALOG_WIDTH"/>
+	<item value="C:\Users\islam.elmenshawy\git\CMS-Xcelerated-Title\.git" key="GitSelectRepositoryPage.lastRepository"/>
+	<item value="12" key="DIALOG_Y_ORIGIN"/>
+	<item value="2" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<item value="413" key="DIALOG_X_ORIGIN"/>
+	<item value="540" key="DIALOG_HEIGHT"/>
+	<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/angular-ui/angular-google-maps.git"/>
+		<item value="https://github.com/angular/angular-seed.git"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+</section>

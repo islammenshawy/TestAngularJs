@@ -1,0 +1,4 @@
+<ul>
+	<li ng-repeat="onecustomer in allcustomers">{{onecustomer.name}}</li>
+</ul>
+<h1>Hello World</h1>

@@ -1,0 +1,14 @@
+package com.dt.entity;
+
+import java.util.List;
+
+public class CustomersWrapper {
+	
+	public static final List<Customer> customers;
+	
+	static{
+		
+	}
+	
+
+}

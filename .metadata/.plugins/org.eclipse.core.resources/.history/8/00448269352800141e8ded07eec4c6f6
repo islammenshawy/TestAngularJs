@@ -1,0 +1,14 @@
+package com.dt.entity;
+
+import java.util.List;
+
+public class CustomerTestStub {
+	
+	public static final List<Customer> customers;
+	
+	static{
+		
+	}
+	
+
+}

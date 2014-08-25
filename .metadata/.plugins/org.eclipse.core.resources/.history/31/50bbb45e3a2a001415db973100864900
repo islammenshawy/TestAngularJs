@@ -1,0 +1,9 @@
+<ul>
+	<li ng-repeat="onecustomer in allcustomers">{{onecustomer.name}}</li>
+</ul>
+
+<div class="table-responsive">
+  <table class="table">
+    <tr ng-repeat="onecustomer in allcustomers">{{onecustomer.name}}</tr>
+  </table>
+</div>

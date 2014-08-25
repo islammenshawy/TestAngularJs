@@ -1,0 +1,16 @@
+package com.dt.entity;
+
+import java.util.List;
+
+public class CustomersWrapper {
+	
+	public static List<Customer> customers;
+	
+	static{
+		customers.add(new Customer("Islam Elmenshawy", "Sacramento"));
+		customers.add(new Customer("Darrel Urlich", "Sacramento"));
+
+	}
+	
+
+}
