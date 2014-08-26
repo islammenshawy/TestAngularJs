@@ -7,8 +7,9 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.dt.entity.Customer;
-import com.dt.entity.CustomersWrapper;
+import com.dt.business.CustomerHelper;
+import com.dt.model.entity.Customer;
+import com.db.CustomersWrapper;
 
 @Path("/customer")
 public class CustomerServices {
@@ -16,6 +17,6 @@ public class CustomerServices {
 	@GET()
 	@Produces({ MediaType.APPLICATION_JSON})
 	public List<Customer> getCustomers(){
-		return CustomersWrapper.getInstance().getCustomers();
+		return CustomerHelper.getInstance().getAllCustomers();
 	}
 }

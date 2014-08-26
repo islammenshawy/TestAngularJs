@@ -1,9 +1,10 @@
-package com.dt.entity;
+package com.dt.model.entity;
 
 public class Customer {
 	
 	private String name;
 	private String city;
+//	private Account account;
 	
 	public Customer(String argName, String argCity){
 		this.name = argName;
