@@ -33,4 +33,16 @@
 		<nature>tern.eclipse.ide.core.ternnature</nature>
 		<nature>org.eclipse.angularjs.core.angularnature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>WebContent/META-INF</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>WebContent/META-INF/MANIFEST.MF</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TestAngularJSBackEnd/WebContent/META-INF/MANIFEST.MF</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
